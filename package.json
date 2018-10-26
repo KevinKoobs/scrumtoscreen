@@ -1,28 +1,37 @@
 {
-  "name": "scrumtoscreen",
-  "version": "0.0.1",
-  "description": "Trying to make scrum digital and intuitive",
-  "main": "index.js",
+  "name": "foundation-sites-template",
+  "version": "1.0.0",
+  "description": "Basic template for a new Foundation for Sites project.",
+  "main": "gulpfile.js",
   "scripts": {
-    "test": "test"
+    "start": "gulp",
+    "build": "gulp sass"
+  },
+  "author": "ZURB <foundation@zurb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zurb/foundation-sites/issues",
+    "email": "foundation@zurb.com"
+  },
+  "dependencies": {
+    "foundation-sites": "~6.4.0",
+    "grunt": "^1.0.3",
+    "grunt-contrib-uglify": "^4.0.0",
+    "jquery": ">=3.0.0",
+    "motion-ui": "~2.0.0",
+    "what-input": "^5.1.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "browser-sync": "^2.18.13",
+    "gulp": "^4.0.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KevinKoobs/scrumtoscreen.git"
+    "url": "https://github.com/zurb/foundation-sites-template.git"
   },
-  "keywords": [
-    "Scrum",
-    "screen",
-    "digital"
-  ],
-  "author": "Kevin Koobs",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KevinKoobs/scrumtoscreen/issues"
-  },
-  "homepage": "https://github.com/KevinKoobs/scrumtoscreen#readme",
-  "dependencies": {
-    "grunt": "^1.0.3",
-    "spaceframework": "^0.16.2"
-  }
+  "private": true
 }
