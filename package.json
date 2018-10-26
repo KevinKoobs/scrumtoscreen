@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/KevinKoobs/scrumtoscreen#readme",
   "dependencies": {
+    "grunt": "^1.0.3",
     "spaceframework": "^0.16.2"
   }
 }
