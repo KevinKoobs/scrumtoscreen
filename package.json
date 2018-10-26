@@ -1,0 +1,27 @@
+{
+  "name": "scrumtoscreen",
+  "version": "0.0.1",
+  "description": "Trying to make scrum digital and intuitive",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinKoobs/scrumtoscreen.git"
+  },
+  "keywords": [
+    "Scrum",
+    "screen",
+    "digital"
+  ],
+  "author": "Kevin Koobs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinKoobs/scrumtoscreen/issues"
+  },
+  "homepage": "https://github.com/KevinKoobs/scrumtoscreen#readme",
+  "dependencies": {
+    "spaceframework": "^0.16.2"
+  }
+}
